@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 
 const Disclaimer = () => {
     return (
-        <>
+        <div className='page_container'>
             <Helmet>
                 <title>Disclaimer | India Drought Monitor</title>
             </Helmet>
@@ -33,7 +33,7 @@ const Disclaimer = () => {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
 
     )
 }

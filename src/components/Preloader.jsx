@@ -1,0 +1,19 @@
+import React from 'react'
+import './Preloader.css';
+
+const Preloader = () => {
+  return (
+
+    <div className="main_preloader">
+      <span className="main_loader"></span>
+      <div className="loading_text">
+        <p>Loading...Please wait!</p>
+      </div>
+    </div>
+
+
+
+  );
+}
+
+export default Preloader

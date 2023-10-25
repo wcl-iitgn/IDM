@@ -10,7 +10,7 @@ const DroughtReporting = () => {
         document.getElementsByClassName("sitevisitor-item")[0].appendChild(script);
     }, []);
     return (
-        <>
+        <div className="page_container">
             <Helmet>
                 <title>Drought Reporting | India Drought Monitor</title>
                 <meta name="description" content="Report drought-related conditions and impacts within India. Reporting regularly can
@@ -72,7 +72,7 @@ const DroughtReporting = () => {
 
                 </div>
             </div>
-        </>
+        </div>
 
     )
 }

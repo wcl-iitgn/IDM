@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 const Acknowledgement = () => {
     return (
-        <>
+        <div className='page_container'>
             <Helmet>
                 <title>Acknowledgement | India Drought Monitor</title>
                 <meta name="description" content="Acknowledgement - India Drought Monitor" />
@@ -82,7 +82,7 @@ const Acknowledgement = () => {
                 </div>
 
             </div>
-        </>
+        </div>
 
     )
 }

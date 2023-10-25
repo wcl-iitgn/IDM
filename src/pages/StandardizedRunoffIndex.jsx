@@ -26,7 +26,7 @@ function setWindowWidth() {
     if (viewportWidth <= [767]) {
         windowWidth = { width: '100vw', height: "65vh", backgroundColor: 'white', border: 'none', margin:'auto' };
     } else {
-        windowWidth = { width: '80vw', height: "70vh", backgroundColor: 'white', border: '1px solid black', margin:'auto' };
+        windowWidth = { width: '80vw', minHeight: "600px", height: "70vh", backgroundColor: 'white', border: '1px solid black', margin: 'auto' };
     }
     return windowWidth;
 }
@@ -87,7 +87,7 @@ const layers = [
 
 const StandardizedRunoffIndex = () => {
     return (
-        <>
+        <div className='page_container'>
             <Helmet>
                 <title>Standardized Runoff Index | India Drought Monitor</title>
             </Helmet>
@@ -152,7 +152,7 @@ const StandardizedRunoffIndex = () => {
 
             </div>
 
-        </>
+        </div>
 
     )
 }

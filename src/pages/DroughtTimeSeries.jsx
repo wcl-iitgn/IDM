@@ -85,7 +85,7 @@ const DroughtTimeSeries = () => {
     } 
 
     return (
-        <>
+        <div className='page_container'>
             <Helmet>
                 <title>Drought Time Series | India Drought Monitor</title>
             </Helmet>
@@ -143,7 +143,7 @@ const DroughtTimeSeries = () => {
 
 
             </div>
-        </>
+        </div>
 
     )
 }

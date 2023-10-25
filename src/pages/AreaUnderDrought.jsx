@@ -19,7 +19,7 @@ function setInitialMapZoom() {
         mapZoom = [4.5];
     } if (viewportWidth >= [1600]) {
         mapZoom = [5];
-    } 
+    }
     return mapZoom;
 }
 
@@ -38,9 +38,9 @@ function setWindowWidth() {
     var viewportWidth = window.innerWidth;
     var windowWidth;
     if (viewportWidth <= [767]) {
-        windowWidth = { width: '100vw', height: "65vh", backgroundColor: 'white', border: 'none', margin:'auto' };
+        windowWidth = { width: '100vw', height: "65vh", backgroundColor: 'white', border: 'none', margin: 'auto' };
     } else {
-        windowWidth = { width: '80vw', height: "70vh", backgroundColor: 'white', border: '1px solid black', margin:'auto' };
+        windowWidth = { width: '80vw', minHeight: "600px", height: "70vh", backgroundColor: 'white', border: '1px solid black', margin: 'auto' };
     }
     return windowWidth;
 }
@@ -57,7 +57,7 @@ const AreaUnderDrought = () => {
         },
     ]
     return (
-        <>
+        <div className='page_container'>
             <Helmet>
                 <title>Area Under Drought | India Drought Monitor</title>
                 <meta name="description" content="Area Under Drought map shows parts of the India that are currently in drought. The map uses five classifications: abnormally dry (D0), showing areas that may be going into or are coming out of drought, and four levels of drought: moderate (D1), severe (D2), extreme (D3) and exceptional (D4)." />
@@ -118,10 +118,23 @@ const AreaUnderDrought = () => {
             </MapContainer>
             <Legend />
 
+            <div className="sitevisitor-item" style={{ display: "none" }}>
+                <a
+                    className="sitevisitor-map"
+                    data-theme="dark"
+                    data-tweet-limit="5"
+                    data-chrome="noheader nofooter noborders"
+                    href="https://www.revolvermaps.com/livestats/538hvsm4w0v/"
+                    target="_blank" rel="noreferrer"
+                >
+                    Website Visitors: Live Statistics
+                </a>
+            </div>
 
 
 
-        </>
+
+        </div>
 
     )
 }

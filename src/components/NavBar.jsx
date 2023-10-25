@@ -1,21 +1,27 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./NavBar.css";
+import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 const NavBar = () => {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
     return (
-        <>
-            <div className="main-header">
+        <div className="whole_navbar_container">
+            <div className="short_header">
                 <h1>India Drought Monitor</h1>
             </div>
-            <nav className="navbar">
+            
+            <div className="navbar">
                 <div className="nav-container">
 
-                    <div className="nav-logo">
+                    <div className="nav_logo_mobile">
                         India Drought Monitor
+                    </div>
+
+                    <div className="nav-icon" onClick={handleClick}>
+                    {click ? <FaTimes /> : <FaBars />}
                     </div>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -164,12 +170,10 @@ const NavBar = () => {
                             </NavLink>
                         </li>
                     </ul>
-                    <div className="nav-icon" onClick={handleClick}>
-                        <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-                    </div>
+                    
                 </div>
-            </nav>
-        </>
+            </div>
+        </div>
     )
 }
 

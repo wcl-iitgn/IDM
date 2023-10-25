@@ -9,7 +9,7 @@ import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
     return (
-        <div>
+        <div className='page_container'>
             <Helmet>
                 <title>Contact Us | India Drought Monitor</title>
             </Helmet>

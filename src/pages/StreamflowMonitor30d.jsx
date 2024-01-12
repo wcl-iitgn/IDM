@@ -44,19 +44,19 @@ const layers = [
     {
         name: "Observed (VIC Simulated)",
         attribution: 'Observed on map released day',
-        url: 'https://docs.google.com/uc?id=1AE1YUixowYOOROzVf6m1MsICf6u-vFaU',
+        url: 'https://lh3.googleusercontent.com/d/1AE1YUixowYOOROzVf6m1MsICf6u-vFaU',
         bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     },
     {
         name: "7 Days lead forecast",
         attribution: 'Lead forecast till 7 days after map released',
-        url: 'https://docs.google.com/uc?id=15ntTx1hZNSzs7RvJd73LDmdfhWSwaVRe',
+        url: 'https://lh3.googleusercontent.com/d/15ntTx1hZNSzs7RvJd73LDmdfhWSwaVRe',
         bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     },
     {
         name: "15 Days lead forecast",
         attribution: 'Lead forecast till 15 days after map released',
-        url: 'https://docs.google.com/uc?id=1eVeM4NfSzjJC72rsbeNjQLZQEJ9qcuKJ',
+        url: 'https://lh3.googleusercontent.com/d/1eVeM4NfSzjJC72rsbeNjQLZQEJ9qcuKJ',
         bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     }
 ]

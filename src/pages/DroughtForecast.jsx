@@ -49,14 +49,14 @@ const DroughtForecast = () => {
             id: "1",
             name: "7 Days lead forecast",
             attribution: "Lead drought forecast till 7 days after map released",
-            url: 'https://docs.google.com/uc?id=1LpMMfjURyRscKyebYp4_3dgKO3MwPDe-',
+            url: 'https://lh3.googleusercontent.com/d/1LpMMfjURyRscKyebYp4_3dgKO3MwPDe-',
             bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
         },
         {
             id: "2",
             name: "15 Days lead forecast",
             attribution: "Lead drought forecast till 15 days after map released",
-            url: 'https://docs.google.com/uc?id=1Fv6ZZvoa1kUerHm317d4d51QrQ8ORAaG',
+            url: 'https://lh3.googleusercontent.com/d/1Fv6ZZvoa1kUerHm317d4d51QrQ8ORAaG',
             bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
         }
     ]

@@ -46,19 +46,19 @@ const StreamflowMonitor7d = () => {
     {
       name: "Observed (VIC Simulated)",
       attribution: 'Observed on map released day',
-      url: 'https://docs.google.com/uc?id=1jsiawjirhbX5KxSA7cUqtm89Ll1VeloQ',
+      url: 'https://lh3.googleusercontent.com/d/1jsiawjirhbX5KxSA7cUqtm89Ll1VeloQ',
       bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     },
     {
       name: "7 Days lead forecast",
       attribution: 'Lead forecast till 7 days after map released',
-      url: 'https://docs.google.com/uc?id=11TQz38spDiZR2TsHISXDx9dFLErYLaZb',
+      url: 'https://lh3.googleusercontent.com/d/11TQz38spDiZR2TsHISXDx9dFLErYLaZb',
       bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     },
     {
       name: "15 Days lead forecast",
       attribution: 'Lead forecast till 15 days after map released',
-      url: 'https://docs.google.com/uc?id=1w58xf1Si2Tz49OOS5vQv0H4pDbX36_ZE',
+      url: 'https://lh3.googleusercontent.com/d/1w58xf1Si2Tz49OOS5vQv0H4pDbX36_ZE',
       bound: [[6.6909658337074802, 97.6641444261154561], [37.2184103603517471, 67.9942123861746808]]
     }
   ]

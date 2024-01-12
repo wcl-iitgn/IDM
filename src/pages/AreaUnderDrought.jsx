@@ -52,7 +52,8 @@ const AreaUnderDrought = () => {
         {
             name: "Area Under Drought",
             // attribution: 'Map released: ' + addDays(0),
-            url: 'https://docs.google.com/uc?id=1tS-bIK6DD_5hB800ncymIGNxXhoPtaM4',
+
+            url: 'https://lh3.googleusercontent.com/d/1tS-bIK6DD_5hB800ncymIGNxXhoPtaM4',
             bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
         },
     ]

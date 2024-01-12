@@ -43,42 +43,42 @@ function setLayerControl() {
 const layers = [
     {
         name: "1 Month",
-        url: 'https://docs.google.com/uc?id=1Pq38feFRbFrvcvNexY8Wz88bygdR4cIo',
+        url: 'https://lh3.googleusercontent.com/d/1Pq38feFRbFrvcvNexY8Wz88bygdR4cIo',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "2 Month",
-        url: 'https://docs.google.com/uc?id=1tX8ebuqyQHNvMpIqsscp_GPT6hp83IkC',
+        url: 'https://lh3.googleusercontent.com/d/1tX8ebuqyQHNvMpIqsscp_GPT6hp83IkC',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "3 Month",
-        url: 'https://docs.google.com/uc?id=1yAzO3xnTdhXbBPFzVVh7S_82oPOOBJc1',
+        url: 'https://lh3.googleusercontent.com/d/1yAzO3xnTdhXbBPFzVVh7S_82oPOOBJc1',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "4 Month",
-        url: 'https://docs.google.com/uc?id=1amZzVNUE0SdQjibsYCmG0IObACBwW7uo',
+        url: 'https://lh3.googleusercontent.com/d/1amZzVNUE0SdQjibsYCmG0IObACBwW7uo',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "6 Month",
-        url: 'https://docs.google.com/uc?id=1sqZVdGpSZOVYt8qtht0Msh5ukyZd9QFV',
+        url: 'https://lh3.googleusercontent.com/d/1sqZVdGpSZOVYt8qtht0Msh5ukyZd9QFV',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "9 Month",
-        url: 'https://docs.google.com/uc?id=1d0_wSNE9xarx8ZirIFbvX4SPpiZb-EFJ',
+        url: 'https://lh3.googleusercontent.com/d/1d0_wSNE9xarx8ZirIFbvX4SPpiZb-EFJ',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "12 Month",
-        url: 'https://docs.google.com/uc?id=1M8wLcSNLRMHW_ZrdJvH7op8t6jEnV-f_',
+        url: 'https://lh3.googleusercontent.com/d/1M8wLcSNLRMHW_ZrdJvH7op8t6jEnV-f_',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
     {
         name: "24 Month",
-        url: 'https://docs.google.com/uc?id=1E4SInqssjXsShx3VKAh-uNPGRcqNwjhT',
+        url: 'https://lh3.googleusercontent.com/d/1E4SInqssjXsShx3VKAh-uNPGRcqNwjhT',
         bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
     },
 ]

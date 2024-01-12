@@ -51,13 +51,13 @@ const DroughtOutlook = () => {
         {
             name: "7 Days Outlook",
             attribution:  "Drought outlook till 7 days after map released",
-            url: 'https://docs.google.com/uc?id=1xfFlgAPSEgzDC_huADLItYAfNo4KKHeA',
+            url: 'https://lh3.googleusercontent.com/d/1xfFlgAPSEgzDC_huADLItYAfNo4KKHeA',
             bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
         },
         {
             name: "15 Days Outlook",
             attribution:  "Drought outlook till 15 days after map released",
-            url: 'https://docs.google.com/uc?id=1M4x2itcsynJaqjxpgEf60bzjwZRJR3kE',
+            url: 'https://lh3.googleusercontent.com/d/1M4x2itcsynJaqjxpgEf60bzjwZRJR3kE',
             bound: [[5.9484095274736717, 98.3478180095000880], [37.9663826133689355, 60.8240580598229599]]
         }
     ]

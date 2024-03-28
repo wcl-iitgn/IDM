@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09d6a24c.css",
+    "main.js": "/static/js/main.1110010d.js",
+    "static/js/197.7c04d0dd.chunk.js": "/static/js/197.7c04d0dd.chunk.js",
+    "static/js/305.e94d4842.chunk.js": "/static/js/305.e94d4842.chunk.js",
+    "static/js/33.1c9a4521.chunk.js": "/static/js/33.1c9a4521.chunk.js",
+    "static/js/568.849e78c4.chunk.js": "/static/js/568.849e78c4.chunk.js",
+    "static/js/757.dcd88e67.chunk.js": "/static/js/757.dcd88e67.chunk.js",
+    "static/js/111.16928123.chunk.js": "/static/js/111.16928123.chunk.js",
+    "static/js/212.a7163209.chunk.js": "/static/js/212.a7163209.chunk.js",
+    "static/js/711.257306ea.chunk.js": "/static/js/711.257306ea.chunk.js",
+    "static/js/899.8263e523.chunk.js": "/static/js/899.8263e523.chunk.js",
+    "static/js/286.843bafd4.chunk.js": "/static/js/286.843bafd4.chunk.js",
+    "static/media/AmanChaudhary.jpg": "/static/media/AmanChaudhary.39a5324e99975ab3f205.jpg",
+    "static/media/SaranAadhar.jpeg": "/static/media/SaranAadhar.2fa604088e5dffd4cc7d.jpeg",
+    "static/media/VimalMishra.jpeg": "/static/media/VimalMishra.eb9a4d78dd35e5f7e508.jpeg",
+    "static/media/wcl_iitgn.png": "/static/media/wcl_iitgn.6c66d0f79325219d7c23.png",
+    "static/media/Media-Lab-Asia.png": "/static/media/Media-Lab-Asia.a9fda30566e8a6d9b938.png",
+    "static/media/RajeshSingh.jpeg": "/static/media/RajeshSingh.bae4dbd79db9a59920af.jpeg",
+    "index.html": "/index.html",
+    "main.09d6a24c.css.map": "/static/css/main.09d6a24c.css.map",
+    "main.1110010d.js.map": "/static/js/main.1110010d.js.map",
+    "197.7c04d0dd.chunk.js.map": "/static/js/197.7c04d0dd.chunk.js.map",
+    "305.e94d4842.chunk.js.map": "/static/js/305.e94d4842.chunk.js.map",
+    "33.1c9a4521.chunk.js.map": "/static/js/33.1c9a4521.chunk.js.map",
+    "568.849e78c4.chunk.js.map": "/static/js/568.849e78c4.chunk.js.map",
+    "757.dcd88e67.chunk.js.map": "/static/js/757.dcd88e67.chunk.js.map",
+    "111.16928123.chunk.js.map": "/static/js/111.16928123.chunk.js.map",
+    "212.a7163209.chunk.js.map": "/static/js/212.a7163209.chunk.js.map",
+    "711.257306ea.chunk.js.map": "/static/js/711.257306ea.chunk.js.map",
+    "899.8263e523.chunk.js.map": "/static/js/899.8263e523.chunk.js.map",
+    "286.843bafd4.chunk.js.map": "/static/js/286.843bafd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d6a24c.css",
+    "static/js/main.1110010d.js"
+  ]
+}

@@ -4,6 +4,8 @@ import VimalMishra from '../assets/images/VimalMishra.jpeg'
 import SaranAadhar from '../assets/images/SaranAadhar.jpeg'
 import RajeshSingh from '../assets/images/RajeshSingh.jpeg'
 import AmanChaudhary from '../assets/images/AmanChaudhary.jpg'
+import Paras from '../assets/images/Paras.jpeg'
+import Devesh from '../assets/images/Devesh.jpeg'
 import ContactForm from '../components/ContactForm';
 
 
@@ -81,13 +83,52 @@ const Contact = () => {
                                 <p>
                                     <a href="https://www.linkedin.com/in/aman-chaudhary-4a1716203/" target="_blank" rel="noreferrer noopener">
                                         Aman Chaudhary</a><br />
-                                    Junior Undergraduate, IIT Gandhinagar<br />
+                                    B.Tech., IIT Gandhinagar<br />
                                     email: aman.chaudhary@iitgn.ac.in
                                 </p>
                             </div>
                         </div>
+                        </div>
 
-                    </div>
+                        <div className="row">
+
+
+
+                            <div className="column-3">
+                                <div className="contact-image">
+                                    <img src={Devesh} alt="Devesh" />
+                                </div>
+                            </div>
+                            <div className="column-3">
+                                <div className="contact-image-caption">
+                                    <p>
+                                        <a href="https://vmishra.people.iitgn.ac.in/water&climate/ #/people/Devesh%20Mani" target="_blank" rel="noreferrer noopener">
+                                            Devesh Mani</a><br />
+                                        PhD Research Scholar, Civil Engineering, <br />
+                                    IIT Gandhinagar<br />
+                                        email: 24350007@iitgn.ac.in
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="column-3">
+                                <div className="contact-image">
+                                    <img src={Paras} alt="Paras" />
+                                </div>
+                            </div>
+                            <div className="column-3">
+                                <div className="contact-image-caption">
+                                    <p>
+                                        <a href="https://scholar.google.com/citations?user=oc7ooUkAAAAJ&hl=en" target="_blank" rel="noreferrer noopener">
+                                            Paras Sharma</a><br />
+                                        PhD Research Scholar, Civil Engineering, <br />
+                                    IIT Gandhinagar<br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+          
                 </div>
 
                 <div className="section">
@@ -100,7 +141,7 @@ const Contact = () => {
 
                         </div>
                         <div className="column-6">
-                            <ContactForm/>
+                            <ContactForm />
                         </div>
                     </div>
 

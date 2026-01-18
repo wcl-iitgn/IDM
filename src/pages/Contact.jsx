@@ -102,7 +102,7 @@ const Contact = () => {
                             <div className="column-3">
                                 <div className="contact-image-caption">
                                     <p>
-                                        <a href="https://vmishra.people.iitgn.ac.in/water&climate/ #/people/Devesh%20Mani" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://vmishra.people.iitgn.ac.in/water&climate/#/people/Devesh%20Mani" target="_blank" rel="noreferrer noopener">
                                             Devesh Mani</a><br />
                                         PhD Research Scholar, Civil Engineering, <br />
                                     IIT Gandhinagar<br />
@@ -123,6 +123,7 @@ const Contact = () => {
                                             Paras Sharma</a><br />
                                         PhD Research Scholar, Civil Engineering, <br />
                                     IIT Gandhinagar<br />
+                                    email: paras.sharma@iitgn.ac.in
                                     </p>
                                 </div>
                             </div>

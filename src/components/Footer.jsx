@@ -20,16 +20,26 @@ const Footer = () => {
         </div>
 
         <div className="footer-menu">
-        <NavLink className='footer-menu-item' to="/disclaimer" onClick={() => window.scrollTo(0, 0)}>
-        Disclaimer
+          <NavLink className='footer-menu-item' to="/disclaimer" onClick={() => window.scrollTo(0, 0)}>
+            Disclaimer
           </NavLink>|
           <NavLink className='footer-menu-item' to="/acknowledgement" onClick={() => window.scrollTo(0, 0)}>
-          Acknowledgement
+            Acknowledgement
           </NavLink>|
 
           <NavLink className='footer-menu-item' to="/contact" onClick={() => window.scrollTo(0, 0)}>
-          Contact Us
-          </NavLink>
+            Contact Us
+          </NavLink> |
+
+          <a className='footer-menu-item' href='https://clustrmaps.com/site/1c916' target="_blank" rel="noreferrer">Website Visitors</a>
+
+
+          <div style={{ display: "none" }}>
+
+            <a href="https://clustrmaps.com/site/1c916" title="Visit tracker">
+              <img src="//www.clustrmaps.com/map_v2.png?d=YtkWGAUIukXBdHsyl1tW2GDYKtyydiVdb_gd0FpjUIQ&cl=ffffff&w=a" alt="Visitor map" /></a>
+
+          </div>
 
 
 

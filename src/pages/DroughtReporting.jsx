@@ -1,14 +1,9 @@
 import React, { useEffect } from "react";
 import { Helmet } from 'react-helmet';
 
-{/* <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=538hvsm4w0v&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=19" async="async"></script> */ }
 
 const DroughtReporting = () => {
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "//rf.revolvermaps.com/0/0/7.js?i=538hvsm4w0v&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=19";
-        document.getElementsByClassName("sitevisitor-item")[0].appendChild(script);
-    }, []);
+
     return (
         <div className="page_container">
             <Helmet>
@@ -49,23 +44,10 @@ const DroughtReporting = () => {
                     </form>
                     <span id="message" className="success-message"></span>
 
-                    
-                <section className="sitevisitorContainer">
-                    <div className="sitevisitor-item">
-                        <a
-                            className="sitevisitor-map"
-                            data-theme="dark"
-                            data-tweet-limit="5"
-                            data-chrome="noheader nofooter noborders"
-                            href="https://www.revolvermaps.com/livestats/538hvsm4w0v/"
-                            target="_blank" rel="noreferrer"
-                        >
-                            Website Visitors: Live Statistics
-                        </a>
-                    </div>
-                </section>
 
-        
+
+
+
 
 
 
